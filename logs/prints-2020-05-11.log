@@ -1,0 +1,6 @@
+16:15:28.141 [main] DEBUG io.netty.util.internal.ThreadLocalRandom - -Dio.netty.initialSeedUniquifier: 0x4bf56a524f28550e
+16:15:32.357 [main] INFO  TestSuite.ValidationHomePage - Driver is initialized
+16:15:35.832 [main] INFO  TestSuite.ValidationHomePage - Navigate to homepage
+16:15:44.167 [main] INFO  TestSuite.ValidationHomePage - Popup Newletters is opened
+16:15:44.353 [main] INFO  TestSuite.ValidationHomePage - Click on No Thanks button
+16:15:44.391 [main] INFO  TestSuite.ValidationHomePage - Sum of all courses is corrected
