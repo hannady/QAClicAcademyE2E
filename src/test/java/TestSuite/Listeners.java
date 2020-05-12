@@ -17,7 +17,7 @@ import resources.ExtendReporterNG;
 public class Listeners extends BaseE2E implements ITestListener {
 	ExtentTest test; 
 	ExtentReports extent=ExtendReporterNG.getReportObject();
-	
+	// For parallel testing need to have Thread save
 	ThreadLocal<ExtentTest> extentTest =new ThreadLocal<ExtentTest>();
 	public void onTestStart(ITestResult result) {
 	
@@ -41,7 +41,8 @@ public class Listeners extends BaseE2E implements ITestListener {
 			
 		}
 		try {
-			getScreenShot(testMethodName, driver);
+			extentTest.get().addScreenCaptureFromPath(getScreenShot(testMethodName, driver), testMethodName);
+			
 		} catch (IOException e) {
 			
 			e.printStackTrace();
