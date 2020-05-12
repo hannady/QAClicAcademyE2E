@@ -3,12 +3,13 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="TestSuite.ValidationHomePage">
+      <class name="TestSuite.LogingPage">
         <methods>
+          <include name="basePageNavegation" invocation-numbers="2"/>
+          <include name="teardown"/>
           <include name="basePageNavigation"/>
-          <include name="checkNewletters"/>
         </methods>
-      </class> <!-- TestSuite.ValidationHomePage -->
+      </class> <!-- TestSuite.LogingPage -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

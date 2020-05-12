@@ -1,53 +1,129 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results skipped="0" failed="0" ignored="0" total="8" passed="8">
+<testng-results skipped="0" failed="0" ignored="0" total="12" passed="12">
   <reporter-output>
   </reporter-output>
-  <suite name="Suite" duration-ms="24499" started-at="2020-05-11T16:15:20 CEST" finished-at="2020-05-11T16:15:44 CEST">
+  <suite name="Suite" duration-ms="41684" started-at="2020-05-12T11:37:20 CEST" finished-at="2020-05-12T11:38:01 CEST">
     <groups>
     </groups>
-    <test name="Validate Home page " duration-ms="24499" started-at="2020-05-11T16:15:20 CEST" finished-at="2020-05-11T16:15:44 CEST">
+    <test name="Validate Home page " duration-ms="33283" started-at="2020-05-12T11:37:20 CEST" finished-at="2020-05-12T11:37:53 CEST">
       <class name="TestSuite.ValidationHomePage">
-        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="basePageNavigation" is-config="true" duration-ms="15531" started-at="2020-05-11T16:15:20 CEST" finished-at="2020-05-11T16:15:35 CEST">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="basePageNavigation" is-config="true" duration-ms="18419" started-at="2020-05-12T11:37:20 CEST" finished-at="2020-05-12T11:37:38 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- basePageNavigation -->
-        <test-method status="PASS" signature="checkNewletters()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="checkNewletters" duration-ms="8487" started-at="2020-05-11T16:15:35 CEST" finished-at="2020-05-11T16:15:44 CEST">
+        <test-method status="PASS" signature="checkNewletters()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="checkNewletters" duration-ms="9024" started-at="2020-05-12T11:37:38 CEST" finished-at="2020-05-12T11:37:47 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- checkNewletters -->
-        <test-method status="PASS" signature="testAllCourses()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="testAllCourses" duration-ms="34" started-at="2020-05-11T16:15:44 CEST" finished-at="2020-05-11T16:15:44 CEST">
+        <test-method status="PASS" signature="testAllCourses()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="testAllCourses" duration-ms="47" started-at="2020-05-12T11:37:47 CEST" finished-at="2020-05-12T11:37:47 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAllCourses -->
-        <test-method status="PASS" signature="validateEmail()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validateEmail" duration-ms="69" started-at="2020-05-11T16:15:44 CEST" finished-at="2020-05-11T16:15:44 CEST">
+        <test-method status="PASS" signature="validateEmail()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validateEmail" duration-ms="120" started-at="2020-05-12T11:37:47 CEST" finished-at="2020-05-12T11:37:47 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateEmail -->
-        <test-method status="PASS" signature="validateFirsttextOfHeder()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validateFirsttextOfHeder" duration-ms="33" started-at="2020-05-11T16:15:44 CEST" finished-at="2020-05-11T16:15:44 CEST">
+        <test-method status="PASS" signature="validateFirsttextOfHeder()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validateFirsttextOfHeder" duration-ms="73" started-at="2020-05-12T11:37:47 CEST" finished-at="2020-05-12T11:37:47 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFirsttextOfHeder -->
-        <test-method status="PASS" signature="validateFooter()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validateFooter" duration-ms="32" started-at="2020-05-11T16:15:44 CEST" finished-at="2020-05-11T16:15:44 CEST">
+        <test-method status="PASS" signature="validateFooter()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validateFooter" duration-ms="122" started-at="2020-05-12T11:37:47 CEST" finished-at="2020-05-12T11:37:48 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateFooter -->
-        <test-method status="PASS" signature="validateNavigationBar()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validateNavigationBar" duration-ms="37" started-at="2020-05-11T16:15:44 CEST" finished-at="2020-05-11T16:15:44 CEST">
+        <test-method status="PASS" signature="validateNavigationBar()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validateNavigationBar" duration-ms="107" started-at="2020-05-12T11:37:48 CEST" finished-at="2020-05-12T11:37:48 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateNavigationBar -->
-        <test-method status="PASS" signature="validatePhoneNumber()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validatePhoneNumber" duration-ms="62" started-at="2020-05-11T16:15:44 CEST" finished-at="2020-05-11T16:15:44 CEST">
+        <test-method status="PASS" signature="validatePhoneNumber()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validatePhoneNumber" duration-ms="172" started-at="2020-05-12T11:37:48 CEST" finished-at="2020-05-12T11:37:48 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validatePhoneNumber -->
-        <test-method status="PASS" signature="validateSecondtextOfHeder()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validateSecondtextOfHeder" duration-ms="32" started-at="2020-05-11T16:15:44 CEST" finished-at="2020-05-11T16:15:44 CEST">
+        <test-method status="PASS" signature="validateSecondtextOfHeder()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="validateSecondtextOfHeder" duration-ms="194" started-at="2020-05-12T11:37:48 CEST" finished-at="2020-05-12T11:37:48 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- validateSecondtextOfHeder -->
-        <test-method status="PASS" signature="teardown()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="teardown" is-config="true" duration-ms="133" started-at="2020-05-11T16:15:44 CEST" finished-at="2020-05-11T16:15:44 CEST">
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestSuite.ValidationHomePage@f5acb9d]" name="teardown" is-config="true" duration-ms="4991" started-at="2020-05-12T11:37:48 CEST" finished-at="2020-05-12T11:37:53 CEST">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- teardown -->
       </class> <!-- TestSuite.ValidationHomePage -->
     </test> <!-- Validate Home page  -->
+    <test name="Loging Page " duration-ms="41684" started-at="2020-05-12T11:37:20 CEST" finished-at="2020-05-12T11:38:01 CEST">
+      <class name="TestSuite.LogingPage">
+        <test-method status="PASS" signature="basePageNavigation()[pri:0, instance:TestSuite.LogingPage@f0da945]" name="basePageNavigation" is-config="true" duration-ms="13207" started-at="2020-05-12T11:37:20 CEST" finished-at="2020-05-12T11:37:33 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavigation -->
+        <test-method status="PASS" signature="basePageNavegation(java.lang.String, java.lang.String)[pri:0, instance:TestSuite.LogingPage@f0da945]" name="basePageNavegation" duration-ms="11933" started-at="2020-05-12T11:37:33 CEST" data-provider="getNegativData" finished-at="2020-05-12T11:37:45 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ira.maksumic@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[1234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavegation -->
+        <test-method status="PASS" signature="basePageNavegation(java.lang.String, java.lang.String)[pri:0, instance:TestSuite.LogingPage@f0da945]" name="basePageNavegation" duration-ms="6375" started-at="2020-05-12T11:37:45 CEST" data-provider="getNegativData" finished-at="2020-05-12T11:37:51 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ira.zildzo@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[33234567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavegation -->
+        <test-method status="PASS" signature="basePageNavegation(java.lang.String, java.lang.String)[pri:0, instance:TestSuite.LogingPage@f0da945]" name="basePageNavegation" duration-ms="4760" started-at="2020-05-12T11:37:51 CEST" data-provider="getNegativData" finished-at="2020-05-12T11:37:56 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ira.zildzo356@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[332343567]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePageNavegation -->
+        <test-method status="PASS" signature="basePagePostive(java.lang.String, java.lang.String)[pri:0, instance:TestSuite.LogingPage@f0da945]" name="basePagePostive" duration-ms="5175" started-at="2020-05-12T11:37:56 CEST" data-provider="getCorrectData" finished-at="2020-05-12T11:38:01 CEST">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[ira.maksumic88@gmail.com]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[123456]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- basePagePostive -->
+        <test-method status="PASS" signature="teardown()[pri:0, instance:TestSuite.LogingPage@f0da945]" name="teardown" is-config="true" duration-ms="184" started-at="2020-05-12T11:38:01 CEST" finished-at="2020-05-12T11:38:01 CEST">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- teardown -->
+      </class> <!-- TestSuite.LogingPage -->
+    </test> <!-- Loging Page  -->
   </suite> <!-- Suite -->
 </testng-results>

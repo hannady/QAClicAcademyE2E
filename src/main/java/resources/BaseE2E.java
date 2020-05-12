@@ -43,11 +43,12 @@ public WebDriver initializeDriver() throws IOException {
 
 			return driver;
 		}
-public void getScreenShot(String testCaseName,WebDriver driver) throws IOException {
+public String getScreenShot(String testCaseName,WebDriver driver) throws IOException {
 	TakesScreenshot ts= (TakesScreenshot) driver;
 	File source=ts.getScreenshotAs(OutputType.FILE);
 	String destinationFile= System.getProperty("user.dir")+"\\reports\\"+testCaseName+".png";
 	FileUtils.copyFile(source,new File(destinationFile));
+	return destinationFile;
 }
 		
 }

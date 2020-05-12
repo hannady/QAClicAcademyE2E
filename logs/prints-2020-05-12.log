@@ -1,0 +1,6 @@
+11:37:47.629 [TestNG-tests-1] INFO  TestSuite.ValidationHomePage - Click on No Thanks button
+11:37:47.684 [TestNG-tests-1] INFO  TestSuite.ValidationHomePage - Sum of all courses is corrected
+11:37:47.805 [TestNG-tests-1] INFO  TestSuite.ValidationHomePage - Successfully validated Email address
+11:37:47.879 [TestNG-tests-1] INFO  TestSuite.ValidationHomePage - First Text of Header is correct
+11:37:48.003 [TestNG-tests-1] INFO  TestSuite.ValidationHomePage - Text of footer is correct 
+11:37:48.110 [TestNG-tests-1] INFO  TestSuite.ValidationHomePage - Navigation bar is displyed

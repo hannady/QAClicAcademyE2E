@@ -1,6 +1,5 @@
-16:15:44.458 [main] INFO  TestSuite.ValidationHomePage - Successfully validated Email address
-16:15:44.494 [main] INFO  TestSuite.ValidationHomePage - First Text of Header is correct
-16:15:44.527 [main] INFO  TestSuite.ValidationHomePage - Text of footer is correct 
-16:15:44.564 [main] INFO  TestSuite.ValidationHomePage - Navigation bar is displyed
-16:15:44.627 [main] INFO  TestSuite.ValidationHomePage - Successfully validated Phonenumber
-16:15:44.660 [main] INFO  TestSuite.ValidationHomePage - Second Text of Header is correct
+11:37:48.239 [TestNG-tests-1] INFO  TestSuite.ValidationHomePage - Successfully validated Phonenumber
+11:37:48.478 [TestNG-tests-1] INFO  TestSuite.ValidationHomePage - Second Text of Header is correct
+11:37:51.751 [TestNG-tests-2] INFO  TestSuite.LogingPage - Successfully enerned test data
+11:37:56.510 [TestNG-tests-2] INFO  TestSuite.LogingPage - Successfully enerned test data
+11:38:01.687 [TestNG-tests-2] INFO  TestSuite.LogingPage - Successfully enerned postiv  test data
